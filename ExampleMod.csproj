@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Configuration>Release</Configuration>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- <PackageReference Include="Pilynth" Version="0.2.1" /> -->
+    <ProjectReference Include="../pilynth/Pilynth.csproj"/>
+  </ItemGroup>
+
+</Project>

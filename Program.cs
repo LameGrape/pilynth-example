@@ -1,0 +1,1 @@
+new Pilynth.Mod(args);
