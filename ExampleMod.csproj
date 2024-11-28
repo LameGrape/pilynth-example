@@ -8,8 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- <PackageReference Include="Pilynth" Version="0.2.1" /> -->
-    <ProjectReference Include="../pilynth/Pilynth.csproj"/>
+    <PackageReference Include="Pilynth" Version="0.3.0" />
   </ItemGroup>
 
 </Project>

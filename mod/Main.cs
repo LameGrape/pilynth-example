@@ -12,9 +12,6 @@ public class ExampleMod : FabricMod
         log.Info("hello pilynth world!");
 
         RegistryKey key = RegistryKey.of(RegistryKey.ofRegistry(Identifier.of("item")), Identifier.of("pilynth_example", "example_item"));
-        Registry.Register(Registries.ITEM, key, new ExampleItem(new Item.Settings().registryKey(key)));
-
-        // RegistryKey key2 = RegistryKey.of(RegistryKey.ofRegistry(Identifier.of("item")), Identifier.of("pilynth_example", "example_2"));
-        // Registry.Register(Registries.ITEM, key2, new ExampleItem(new Item.Settings().registryKey(key2)));
+        Registry.register(Registries.ITEM, key, new ExampleItem(new Item.Settings().registryKey(key)));
     }
 }
