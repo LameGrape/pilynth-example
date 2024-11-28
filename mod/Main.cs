@@ -15,3 +15,9 @@ public class ExampleMod : FabricMod
         Registry.register(Registries.ITEM, key, new ExampleItem(new Item.Settings().registryKey(key)));
     }
 }
+
+[Identifier("example_item")]
+public class ExampleItem : Item
+{
+    public ExampleItem(Settings settings) : base(settings) { }
+}
