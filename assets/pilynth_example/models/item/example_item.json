@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "pilynth_example:item/example_item"
+	}
+}
