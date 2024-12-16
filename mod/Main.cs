@@ -18,3 +18,9 @@ public class ExampleItem : Item
 {
     public ExampleItem(Settings settings) : base(settings) { }
 }
+
+[Identifier("example_block")]
+public class ExampleBlock : Block
+{
+    public ExampleBlock(Settings settings) : base(settings) { }
+}
